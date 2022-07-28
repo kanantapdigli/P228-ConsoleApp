@@ -8,10 +8,16 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class Student : Person, IEntity
+    public class Teacher : Person, IEntity
     {
+        public Teacher()
+        {
+            Groups = new List<Group>();
+        }
+
         public int Id { get; set; }
 
-        public Group Group { get; set; }
+        public List<Group> Groups { get; set; }
+
     }
 }

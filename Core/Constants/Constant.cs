@@ -18,6 +18,12 @@ namespace Core.Constants
         UpdateStudent,
         DeleteStudent,
         GetAllStudentsByGroup,
-        GetStudentByGroup
+        GetStudentByGroup,
+        CreateTeacher,
+        UpdateTeacher,
+        DeleteTeacher,
+        AllTeachers,
+        AddGroupToTeacher,
+        AllGroupsOfTeacher
     }
 }
